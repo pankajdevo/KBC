@@ -8,4 +8,4 @@ WORKDIR /app
 COPY . /app
 
 # Command to run the PHP script
-CMD ["php", "-S", "0.0.0.0:8080"]
+CMD ["php", "-S", "0.0.0.0:3000"]
